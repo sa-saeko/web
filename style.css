@@ -1,13 +1,6 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-
+/* リセットcss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -103,4 +96,38 @@ input, select {
     vertical-align:middle;
 }
 
+/* その他のスタイルは以下に記述していきます */
 
+.header{
+    height: 70px;
+    background: #000;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin-right: 40px;
+    font-size: 15px;
+    color: #fff;
+}
+
+#eyecatch {
+    height: 200px;
+    background: url(../演習問題img/img/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
