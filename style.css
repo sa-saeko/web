@@ -177,24 +177,27 @@ input, select {
     color: #fff;
     font-size: 30px;
     line-height: normal;
-    position: relative;
-    top: 200px;  
-    left: 300px;
+    vertical-align: middle;
 }
 
 #mission .mission-text {
     color: #fff;
+    font-size: 14px;
     line-height: normal;
     text-align: justify;
-    position: relative;
-    top: 250px;
-    left: 300px;
+    vertical-align: middle;
 }
 
+#mission .mision-button {
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px #fff solid;
+    vertical-align: middle;
+}
 
-#mission .mission-img {
-    width: 10px;
-    position: absolute;
-    top: 300px;
-    left: 600px;
+#mission .mission-img img{
+    width: 30%;
+    float: right;
 }
