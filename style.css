@@ -231,6 +231,7 @@ body {
     height: 1500px;
     margin-top: 100px;
     padding: 0% 10%;
+    position: relative;
 }
 
 #service h2 {
@@ -245,9 +246,10 @@ body {
     background-color: #fff;
     height: 400px;
     width: 700px;
-    position: relative;
+    position: absolute;
     top: 150px;
-    left: 100px;
+    right: 700px;
+    object-fit: cover;
     z-index: 1;
 }
 
@@ -272,6 +274,9 @@ body {
 
 #service .srv-img1 img{
     width: 800px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
 }
 
 #service .srv-button {
@@ -291,8 +296,8 @@ body {
     background-color: #fff;
     height: 400px;
     width: 700px;
-    position: relative;
-    top: 400px;
+    position: absolute;
+    top: 830px;
     left: 700px;
     z-index: 1;
     object-fit: cover;
@@ -332,10 +337,150 @@ body {
 
 #service .srv-img2 img{
     width: 800px;
+    position: absolute;
+    top: 800px;
+    left: 0px;
 }
 
 #company1 {
-    height: 700px;
+    height: 400px;
     background-color: #fff;
+    margin-top: 200px;
 }
 
+#company1 .company {
+    float: left;
+    background-image: url("./演習問題img/img/company.jpeg");
+    width: 45%;
+    height: 200px;
+    color: #fff;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+
+#company1 .company h2{
+    font-size: 40px;
+}
+
+#company1 .company p{
+    font-size: 20px;
+}
+
+#company1 .recruit {
+    float: right;
+    background-image: url("./演習問題img/img/recruit.jpg");
+    width: 45%;
+    height: 200px;
+    color: #fff;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+
+#company1 .recruit h2 {
+    font-size: 40px;
+}
+
+#company1 .recruit p {
+    font-size: 20px;
+}
+
+.FAQ {
+    color: #fff;
+    background-color: black;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15% 200px 15%;
+    padding-left: 3%;
+}
+
+.FAQ h2 {
+    font-size: 35px;
+}
+
+.FAQ p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact {
+    background-image: url(./演習問題img/img/contact-bg.jpg);
+    height: 600px;
+    color: #fff;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+
+#contact h2 {
+    font-size: 30px;
+}
+
+#contact h4 {
+    font-size: 20px;
+}
+
+#contact h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+#contact p {
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#contact button {
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none; 
+  border: 1px #fff solid; 
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 5%;
+}
+.footer-ttl {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.footer-nav-list {
+  display: flex;
+  font-weight: bold;
+  width: 400px;
+  font-size: 14px;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+}
+
+.copyright{
+  font-size: 12px;
+  width: 250px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
